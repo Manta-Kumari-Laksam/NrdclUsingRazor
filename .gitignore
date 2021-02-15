@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/NRDCLRazor/.vs/NRDCLRazor
+/NRDCLRazor/bin/Debug/netcoreapp3.1
+/NRDCLRazor/obj
+/NRDCLRazor/wwwroot
+/NRDCLRazor.Models/bin/Debug/netstandard2.0
+/NRDCLRazor.Models/obj
+/NRDCLRazor.Services/bin/Debug
+/NRDCLRazor.Services/obj

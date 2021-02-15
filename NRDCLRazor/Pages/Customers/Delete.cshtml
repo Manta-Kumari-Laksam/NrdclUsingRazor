@@ -1,0 +1,13 @@
+﻿@page "{Id}"
+@model NRDCLRazor.Pages.Customers.DeleteModel
+@{
+}
+
+<h1>Delete Confirmation</h1>
+<div class="alert alert-danger">
+    <h3>Are you sure you want to delete customer -@Model.customer.Name ? </h3>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a class="btn btn-primary" asp-page="/Customers/Index">No</a>
+    </form>
+</div>

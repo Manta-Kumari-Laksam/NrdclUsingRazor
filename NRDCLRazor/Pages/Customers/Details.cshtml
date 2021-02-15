@@ -1,0 +1,23 @@
+﻿@page "/customers/view/{Id:id_validate}"
+@model NRDCLRazor.Pages.Customers.DetailsModel
+@{
+}
+<h1>Details</h1>
+<div class=" col-sm-8">
+    <div class="card">
+        <div class="card-header">
+            <p>Customer Name: @Model.customer.Name</p>
+        </div>
+        <div class="card-body">
+            <p>Customer Citizenship: @Model.customer.Id</p>
+            <p>Customer Email: @Model.customer.Email</p>
+            <p>Mobile Number: @Model.customer.Mobile</p>
+        </div>
+        <div class="card-footer">
+            <a asp-page="Index" class="btn btn-success">Back</a>
+            <a href="#" class="btn btn-primary">Edited</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+</div>
+
